@@ -12,32 +12,32 @@ body {
     list-style-type: none;
 }
 
-.Web{
+.web-logo{
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 
 }
-.Studio{
+.studio-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
 }
 
-.Web:hover, .Web:focus, .Studio:hover, .Studio:focus{
+.web-logo:hover, .web-logo:focus, .studio-logo:hover, .studio-logo:focus{
     text-decoration:underline;
 
 }
 
-.nav-link-1, .nav-link-2,.nav-link-3{
+.navigation {
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -47,21 +47,22 @@ color: #2e2f42;
 }
 
 
-.nav-link-1:hover, .nav-link-2:hover, .nav-link-3:hover{
+.navigation:hover{
 color: #404bbf;
 }
-.nav-link-1:active, .nav-link-2:active, .nav-link-3:active{
+.navigation:focus{
 text-decoration: underline;
+color:#404bbf
 }
-
-.mailto{
+.address-list {
+    font-style:normal;
+}
+.address{
 color: #434455;
 }
-.tel {
-    color: #434455;
-}
 
-.mailto:hover, .tel:hover{
+
+.address:hover {
 color: #404bbf;
 }
 
@@ -76,7 +77,6 @@ color: #2e2f42;
 }
 
 button{
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4d5ae5;
 }
 button:hover{
